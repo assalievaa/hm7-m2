@@ -1,0 +1,29 @@
+
+.traffic{
+    width: 350px;
+    height: 650px;
+    border: 4px solid rgb(138, 138, 138);
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.traffic_color{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(138, 138, 138) 6px solid;
+}
+
+.red.active{
+    background-color: #f11515;
+}
+.yellow.active{
+    background-color: #ebeb10;
+}
+.green.active{
+    background-color: #0ce70c;
+}
